@@ -1,0 +1,80 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>Now, the calculator will be able to store the results of previous calculations. Do you have any idea how to do that? Of course! This can be achieved by introducing variables. Storing results in variables and then operating on them at any time is a very convenient function.</p>
+<h5 id="objectives">Objectives</h5>
+<p>So, your program should support variables. Use <code class="language-python"><span style="color: #000000;">Map</span></code> to store them.</p>
+<p>Go by the following rules for variables:</p>
+<ul>
+<li>We suppose that the name of a variable (identifier) can contain only Latin letters.</li>
+<li>A variable can have a name consisting of more than one letter.</li>
+<li>The case is also important; for example, <strong>n</strong> is not the same as <strong>N</strong>.</li>
+<li>The value can be an integer number or a value of another variable.</li>
+<li>It should be possible to set a new value to an existing variable.</li>
+<li>To print the value of a variable you should just type its name.</li>
+</ul>
+<p>The example below shows how variables can be declared and displayed. </p>
+<pre><code class="language-python">&gt; n = 3
+&gt; m=4
+&gt; a  =   5
+&gt; b = a
+&gt; v=   7
+&gt; n =9
+&gt; count = 10
+&gt; a = 1
+&gt; a = 2
+&gt; a = 3
+&gt; a
+3</code></pre>
+<p>Incorrect spelling or declaration of variables should also throw an exception with the corresponding message to the user:</p>
+<ul>
+<li>First, the variable is checked for correctness. If the user inputs an invalid variable name, then the output should be  <code class="language-python">"Invalid identifier"</code>.</li>
+</ul>
+<pre><code class="language-python">&gt; a2a
+Invalid identifier
+&gt; n22
+Invalid identifier</code></pre>
+<ul>
+<li>If a variable is valid but not declared yet, the program should print <code class="language-python">"Unknown variable"</code>.</li>
+</ul>
+<pre><code class="language-python">&gt; a = 8
+&gt; b = c
+Unknown variable
+&gt; e
+Unknown variable</code></pre>
+<ul>
+<li>If an identifier or value of a variable is invalid during variable declaration, the program must print a message like the one below.</li>
+</ul>
+<pre><code class="language-python">&gt; a1 = 8
+Invalid identifier
+&gt; n1 = a2a
+Invalid identifier
+&gt; n = a2a
+Invalid assignment
+&gt; a = 7 = 8
+Invalid assignment</code></pre>
+<p>Please note that the program should print <code class="language-python">"Invalid identifier"</code> if the left part of the assignment is incorrect. If the part after the <code class="language-python">"="</code> is wrong then use the <code class="language-python"><samp>"Invalid assignment"</samp></code>. First we should check the left side.</p>
+<p>Handle as many incorrect inputs as possible. The program must never throw an exception of any kind.</p>
+<p>It is important to note, all variables must store their values between calculations of different expressions.</p>
+<p>Do not forget about previously implemented commands: <code class="language-python">/help</code> and <code class="language-python">/exit</code>.</p>
+<h5 id="examples">Examples</h5>
+<p>The greater-than symbol followed by a space (<code class="language-python">&gt;</code>) represents the user input.</p>
+<pre><code class="language-no-highlight">&gt; a  =  3
+&gt; b= 4
+&gt; c =5
+&gt; a + b - c
+2
+&gt; b - c + 4 - a
+0
+&gt; a = 800
+&gt; a + b + c
+809
+&gt; BIG = 9000
+&gt; BIG
+9000
+&gt; big
+Unknown variable
+&gt; /exit
+Bye!
+</code></pre>
+<p><b>Tip:</b> Think of your program as of a set of instructions to different cases. For example, if it's a command, you perform one set of actions, or if it's an assignment operation, then you perform other actions if it's an expression that needs calculation it's also another thing. Refactoring your program at this stage is not a bad idea!</p>
+</div>

@@ -1,0 +1,33 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>Now you need to consider the reaction of the calculator when users enter expressions in the wrong format. The program only knows numbers, a plus sign, a minus sign, and two commands. It cannot accept all other characters and it is necessary to warn the user about this.</p>
+<h5 id="objectives">Objectives</h5>
+<ul style="list-style-type: square;">
+<li>The program should print  <code class="java">Invalid expression</code> in cases when the given expression has an invalid format. If a user enters an invalid command, the program must print <code class="java">Unknown command</code>. All messages must be printed without quotes. The program must never throw an exception.</li>
+<li>
+<p>To handle incorrect input, you should remember that the user input that starts with <code class="java">/</code> is a <em>command</em>, in other situations, it is an <em>expression</em>.</p>
+</li>
+<li>Like before, <code class="java">/help</code> command should print information about your program. When the command <code class="java">/exit</code> is entered, the program must print <code class="java">Bye!</code> , and then stop.</li>
+</ul>
+<h5 id="examples">Examples</h5>
+<p>The greater-than symbol followed by a space (<code class="java">&gt;</code>) represents the user input.</p>
+<pre><code class="language-no-highlight">&gt; 8 + 7 - 4
+11
+&gt; abc
+Invalid expression
+&gt; 123+
+Invalid expression
+&gt; +15
+15
+&gt; 18 22
+Invalid expression
+&gt;
+&gt; -22
+-22
+&gt; 22-
+Invalid expression
+&gt; /go
+Unknown command
+&gt; /exit
+Bye!</code></pre>
+</div>

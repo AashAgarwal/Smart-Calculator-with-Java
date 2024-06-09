@@ -1,0 +1,14 @@
+type: edu
+files:
+  - name: src/calculator/Main.java
+    visible: true
+    learner_created: false
+  - name: test/Test.java
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5318#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 04 Jun 2024 14:20:49 UTC"
+record: 3

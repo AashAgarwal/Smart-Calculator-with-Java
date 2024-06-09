@@ -1,0 +1,16 @@
+type: hyperskill
+title: Smart Calculator with Java
+language: English
+summary: "<div><div class=\"alert alert-primary\">You will practice concepts frequently\
+  \ tested in technical interviews at top tech companies.</div>\r\n\r\n<p>Calculators\
+  \ are a very helpful tool that we all use on a regular basis. Why not create one\
+  \ yourself, and make it really special? In this project, you will write a calculator\
+  \ that not only adds, subtracts, and multiplies, but is also smart enough to remember\
+  \ your previous calculations.</p>\r\n</div><br/><br/>Learn more at <a href=\"https://hyperskill.org/projects/42?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card\"\
+  >https://hyperskill.org/projects/42</a>"
+programming_language: Java
+programming_language_version: 11
+content:
+  - Smart Calculator with Java
+  - Topics
+mode: Study

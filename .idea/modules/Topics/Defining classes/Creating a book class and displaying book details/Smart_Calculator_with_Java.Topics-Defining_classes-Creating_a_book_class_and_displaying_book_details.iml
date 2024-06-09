@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Topics-Defining_classes-Creating_a_book_class_and_displaying_book_details" external.linked.project.path="$MODULE_DIR$/../../../../../Topics/Defining classes/Creating a book class and displaying book details" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Smart Calculator with Java" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/Defining classes/Creating a book class and displaying book details">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Defining classes/Creating a book class and displaying book details/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Defining classes/Creating a book class and displaying book details/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/Defining classes/Creating a book class and displaying book details/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
